@@ -9,7 +9,7 @@ import (
 
 func main() {
 	log.SetPrefix("Parsing: ")
-	value, err := sam.CigarConsume("150M")
+	value, err := sam.CigarConsume("3S10M5I20M10S")
 
 	if err != nil {
 		log.Fatal(err)
